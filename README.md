@@ -17,13 +17,11 @@ and after implementing the classification model, we simply ensemble to the two m
   | ULMFiT       | Wikipedia-hi(backwards) |    29.25  |
 
   ### Classification Metrics(on test set)
-  | Dataset                  |       Model 1       |  Model 2(backwards)  |        Ensemble      |
-  |--------------------------|---------------------|----------------------|----------------------|
-  |                          | Accuracy |   MCC    | Accuracy |   MCC     | Accuracy |   MCC     |
-  |--------------------------|----------|----------|----------|-----------|----------|-----------|
-  | BBC Articles(14 classes) |   79.79  |  72.58   |          |           |  84.39   |  79.13    |
-  |  IITP movie Reviews      |   58.39  |  38.34   |          |           |          |           |          
-  |  IITP Product Reviews    |   72.08  |  54.19   |          |           |          |           |
+  |        Dataset           | Accuracy(Model 1) |   MCC(Model 1)    | Accuracy(Model 2) |   MCC(Model 2)   | Accuracy(ensemble) |   MCC(ensemble)    |
+  |--------------------------|-------------------|-------------------|-------------------|------------------|--------------------|--------------------|
+  | BBC Articles(14 classes) |   79.79           |  72.58            |                   |                  |  84.39             |  79.13             |
+  |  IITP movie Reviews      |   58.39           |  38.34            |                   |                  |                    |                    |        
+  |  IITP Product Reviews    |   72.08           |  54.19            |                   |                  |                    |                    |
 
 
 
