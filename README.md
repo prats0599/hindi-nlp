@@ -18,7 +18,7 @@ and after implementing the classification model, we simply ensemble to the two m
 
   ### Classification Metrics(on test set)
   | Dataset                  |       Model 1       |  Model 2(backwards)  |        Ensemble      |
-  |--------------------------|----------|----------|----------|-----------|----------|-----------|
+  |--------------------------|---------------------|----------------------|----------------------|
   |                          | Accuracy |   MCC    | Accuracy |   MCC     | Accuracy |   MCC     |
   |--------------------------|----------|----------|----------|-----------|----------|-----------|
   | BBC Articles(14 classes) |   79.79  |  72.58   |          |           |  84.39   |  79.13    |
