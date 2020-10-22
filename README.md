@@ -8,6 +8,14 @@ To improve results, we build another language model that predicts the previous w
 the data in the reverse order and ask the model to predict word 1, given words n to 2, where n>2. We follow the same steps as above
 and after implementing the classification model, we simply ensemble to the two models and voila!
 
+## Datasets  
+1. [BBC News Articles](https://github.com/AI4Bharat/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for Hindi documents extracted from BBC news website.  
+
+2. [IITP Product Reviews](https://github.com/AI4Bharat/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for product reviews posted in Hindi.  
+
+3. [IITP Movie Reviews](https://github.com/AI4Bharat/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for movie reviews posted in Hindi.  
+
+
 ## Results  
 
   ### Language Model Perplexity(on validation dataset which is randomly split)
@@ -23,7 +31,7 @@ and after implementing the classification model, we simply ensemble to the two m
   |  IITP movie Reviews      |   58.39           |  38.34            |                   |                  |                    |                    |        
   |  IITP Product Reviews    |   72.08           |  54.19            |                   |                  |                    |                    |
 
-
+Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).  
 
 
 
@@ -33,4 +41,4 @@ Experiment using transformers instead of LSTMs and compare results.
 
 
 
-### The full article on how to create your own SOTA model for language modelling & sentiment analysis is available [here]().  
+### The full article on how to create your own SOTA model for language modelling & sentiment analysis is available [here](https://prats0599.medium.com/building-a-state-of-the-art-text-classifier-for-any-language-you-want-fe3ebbdab5c9).  
