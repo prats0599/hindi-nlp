@@ -16,6 +16,13 @@ and after implementing the classification model, we simply ensemble to the two m
 3. [IITP Movie Reviews](https://github.com/AI4Bharat/indicnlp_corpus#publicly-available-classification-datasets) : Sentiment analysis corpus for movie reviews posted in Hindi.  
 
 
+## Notebooks
+
+[nn-hindi](nn-hindi.ipynb): Contains code for Model 1 and ensembling.  
+[nn-hindi-bwd](nn-hindi-bwd.ipynb): Code to train the models that predicts text backwards(Model 2).  
+[bbc-hindi](bbc-hindi.ipynb): Same code as nn-hindi.ipynb, but just for the bbc-articles dataset.   
+
+
 ## Results  
 
   ### Language Model Perplexity(on validation dataset which is randomly split)
@@ -27,17 +34,19 @@ and after implementing the classification model, we simply ensemble to the two m
   ### Classification Metrics(on test set)
   |        Dataset           | Accuracy(Model 1) |   MCC(Model 1)    | Accuracy(Model 2) |   MCC(Model 2)   | Accuracy(ensemble) |   MCC(ensemble)    |
   |--------------------------|-------------------|-------------------|-------------------|------------------|--------------------|--------------------|
-  | BBC Articles(14 classes) |   79.79           |  72.58            |                   |                  |  84.39             |  79.13             |
-  |  IITP movie Reviews      |   58.39           |  38.34            |                   |                  |                    |                    |        
-  |  IITP Product Reviews    |   72.08           |  54.19            |                   |                  |                    |                    |
+  | BBC Articles(14 classes) |      79.79        |       72.58       |       78.75       |      71.15       |       84.39        |       79.13        |
+  |  IITP movie Reviews      |      58.39        |       38.34       |       61.94       |      43.68       |                    |                    |        
+  |  IITP Product Reviews    |      72.08        |       54.19       |       75.90       |      59.83       |                    |                    |
 
-Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).  
+Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).
 
 
 
 ## Future Work  
-Train second model on IITP movie reviews and product reviews datasets.  
-Experiment using transformers instead of LSTMs and compare results.  
+- [x] Train second model on IITP movie reviews and product reviews datasets.  
+- [ ] Ensemble the other two models
+- [ ] Make a separate notebook for each dataset.
+- [ ] Experiment using transformers instead of LSTMs and compare results.  
 
 
 
