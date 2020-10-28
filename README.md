@@ -38,7 +38,9 @@ and after implementing the classification model, we simply ensemble to the two m
   |  IITP movie Reviews      |      58.39        |       38.34       |       61.94       |      43.68       |                    |                    |        
   |  IITP Product Reviews    |      72.08        |       54.19       |       75.90       |      59.83       |                    |                    |
 
-Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).
+Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).  
+
+NOTE: MCC metric mentioned in the table refers to [matthews correlation coefficient](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7#:~:text=The%20Matthews%20correlation%20coefficient%20(MCC)%2C%20instead%2C%20is%20a,both%20to%20the%20size%20of).
 
 
 
