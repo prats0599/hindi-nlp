@@ -40,8 +40,10 @@ and after implementing the classification model, we simply ensemble to the two m
 
 Just by ensembling, we have outperformed classification benchmarks mentioned in this [repository](https://github.com/goru001/nlp-for-hindi).  
 
-NOTE: MCC metric mentioned in the table refers to [matthews correlation coefficient](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7#:~:text=The%20Matthews%20correlation%20coefficient%20(MCC)%2C%20instead%2C%20is%20a,both%20to%20the%20size%20of).
+NOTE: MCC metric mentioned in the table refers to [matthews correlation coefficient](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7#:~:text=The%20Matthews%20correlation%20coefficient%20(MCC)%2C%20instead%2C%20is%20a,both%20to%20the%20size%20of).  
 
+## Download Pretrained models
+The pretrained language models(both forward and backward) are available to download [here](https://drive.google.com/drive/folders/1k0cZ3e8_MPUhn3WWhd3klg-lfEEzNAZ5?usp=sharing).
 
 
 ## Future Work  
